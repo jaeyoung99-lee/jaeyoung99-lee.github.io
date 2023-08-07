@@ -1,14 +1,259 @@
 h1 {
     color: brown;
-    text-align:center;
+    text-align: center;
 }
 
 table {
-	margin-right: auto;
-	margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 table a {
-    text-decoration-line:none;
+    text-decoration-line: none;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.clearfix {
+    font-size: 30px;
+    position: fixed;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.clearfix li {
+    font-size: 30px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.clearfix a {
+    line-height: 50px;
+    height: 50px;
+}
+
+.clearfix li a {
+    box-sizing: border-box;
+}
+
+.clearfix li:last-child a {
+    border-right: 0;
+}
+
+.clearfix {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.clearfix li {
+    display: inline-block;
+}
+
+.clearfix li a {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14.5px 16px;
+    text-decoration: none;
+}
+
+.clearfix li a:hover {
+    color: #FFD400;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #333333;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+/* 핫뉴스 사진 */
+
+.hot {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.screen1 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.screen1-1 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+.screen1-2 {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+
+.screen2 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.screen2-1 {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+.screen2-2 {
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+
+
+.screen3 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.screen3-1 {
+    width: 100%;
+    height: 50%;
+    background-color: burlywood;
+}
+
+.screen3-2 {
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* 관광지 사진 */
+
+.g {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.sc1 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.sc1-1 {
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+}
+
+.sc1-2 {
+    width: 100%;
+    height: 50%;
+    background-color: goldenrod;
+}
+
+
+.sc2 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.sc2-1 {
+    width: 100%;
+    height: 50%;
+    background-color: skyblue;
+}
+
+.sc2-2 {
+    width: 100%;
+    height: 50%;
+    background-color: greenyellow;
+}
+
+
+.sc3 {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    float: left;
+    padding-top: 100px;
+    flex: 1;
+}
+
+.sc3-1 {
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
+
+.sc3-2 {
+    width: 100%;
+    height: 50%;
+    background-color: orangered;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+}
