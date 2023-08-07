@@ -12,6 +12,33 @@ table a {
     text-decoration-line: none;
 }
 
+/* 지역 행사 */
+
+.calendar {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .calendar th {
+    background-color: #f2f2f2;
+  }
+
+  .calendar td:hover {
+    background-color: yellow;
+  }
+
+  .cal {
+    padding-top: 200px;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -71,8 +98,8 @@ body {
 }
 
 .clearfix li a:hover {
-    color: #FFD400;
-    font-weight: normal;
+    color: #ffd400;
+    font-weight:bold;
 }
 
 header {
