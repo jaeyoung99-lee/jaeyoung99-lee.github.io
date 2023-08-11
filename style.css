@@ -9,7 +9,7 @@ table a {
 
 .info {
     padding-top: 150px;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 .info h1 {
@@ -17,44 +17,44 @@ table a {
 }
 
 /* 도시 정보 */
-table, th, td {
-
-    border:1px solid #000000;
-
+.city table, .city th, .city td {
+    border: 1px solid #000000;
     border-collapse: collapse;
+}
 
-  }
+.city th, .city td {
+    padding: 10px 20px;
+}
 
-  th, td { padding:10px 20px; }
 
-  
 /* 지역 행사 */
 
 .calendar {
     font-family: Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
 
-  .calendar th, .calendar td {
+.calendar th,
+.calendar td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
     cursor: pointer;
-  }
+}
 
-  .calendar th {
+.calendar th {
     background-color: #f2f2f2;
-  }
+}
 
-  .calendar td:hover {
+.calendar td:hover {
     background-color: yellow;
-  }
+}
 
-  .cal {
+.cal {
     padding-top: 200px;
-  }
-  
+}
+
 
 * {
     margin: 0;
@@ -116,7 +116,7 @@ body {
 
 .clearfix li a:hover {
     color: #ffd400;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 header {
