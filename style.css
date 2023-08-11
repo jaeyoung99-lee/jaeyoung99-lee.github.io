@@ -18,8 +18,9 @@ table a {
 
 /* 도시 정보 */
 .city table, .city th, .city td {
-    border: 1px solid #000000;
+    border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 
 .city th, .city td {
