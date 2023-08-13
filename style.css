@@ -1,304 +1,271 @@
 table {
-    margin-right: auto;
-    margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 table a {
-    text-decoration-line: none;
-}
-
-.info {
-    padding-top: 150px;
-    margin-left: 50px;
-}
-
-.info h1 {
-    font-size: 100px;
+  text-decoration-line: none;
 }
 
 /* 도시 정보 */
-.city table, .city th, .city td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
+
+.info {
+  font-size: 100px;
+  text-align: center;
 }
 
-.city th, .city td {
-    padding: 10px 20px;
+.info_img {
+  display: block;
+  margin: auto;
 }
 
+.city {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.city th,
+td {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: large;
+}
 
 /* 지역 행사 */
 
 .calendar {
-    font-family: Arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
 }
 
 .calendar th,
 .calendar td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-    cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .calendar th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .calendar td:hover {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .cal {
-    padding-top: 200px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
+.region_info {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.region_info th {
+  border: 1px solid black;
+  background-color: lightgray;
+}
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 .clearfix {
-    font-size: 30px;
-    position: fixed;
-    padding: 0;
-    margin: 0 auto;
-    width: 100%;
+  font-size: 30px;
+  position: fixed;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .clearfix li {
-    font-size: 30px;
-    padding: 25px 25px 25px 25px;
-    text-align: center;
+  font-size: 30px;
+  padding: 25px 25px 25px 25px;
+  text-align: center;
 }
 
 .clearfix a {
-    line-height: 50px;
-    height: 50px;
+  line-height: 50px;
+  height: 50px;
 }
 
 .clearfix li a {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .clearfix li:last-child a {
-    border-right: 0;
+  border-right: 0;
 }
 
 .clearfix {
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
 }
 
 .clearfix li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .clearfix li a {
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14.5px 16px;
-    text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14.5px 16px;
+  text-decoration: none;
 }
 
 .clearfix li a:hover {
-    color: #ffd400;
-    font-weight: bold;
+  color: #ffd400;
+  font-weight: bold;
 }
 
 header {
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    max-width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-color: #333333;
-    color: white;
-    position: fixed;
-    z-index: 1;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: #333333;
+  color: white;
+  position: relative;
+  z-index: 1;
 }
 
-/* 핫뉴스 사진 */
+/* 핫 뉴스 */
 
-.hot {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    display: flex;
+.hot_table caption {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 85%;
 }
 
-
-.screen1 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
+.hot_table {
+  width: 60%;
+  border-top: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.screen1-1 {
-    width: 100%;
-    height: 50%;
-    background-color: red;
+.hot_table th {
+  background-color: lightgray;
 }
 
-.screen1-2 {
-    width: 100%;
-    height: 50%;
-    background-color: yellow;
+.hot_table th,
+.hot_table td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-left: none;
+  border-right: none;
 }
 
-
-.screen2 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
+.hot_table a {
+  text-decoration: none;
+  color: black;
 }
 
-.screen2-1 {
-    width: 100%;
-    height: 50%;
-    background-color: blue;
+.hot_table a:hover {
+  color: gold;
+  font-weight: bold;
 }
 
-.screen2-2 {
-    width: 100%;
-    height: 50%;
-    background-color: green;
+/* 관광 명소 */
+
+.tour {
+  width: 100%;
+  height: 100vmax;
+  padding-top: 50px;
 }
 
-
-.screen3 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
+.tour_box {
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.screen3-1 {
-    width: 100%;
-    height: 50%;
-    background-color: burlywood;
+.tour_list {
+  width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;  
+  margin-left: 20px;
+  float: left;
 }
 
-.screen3-2 {
-    width: 100%;
-    height: 50%;
-    background-color: orange;
+.tour_list img {
+  vertical-align: top;
+  width: 430px;
+  height: 300px;
 }
+
+.tour_list .inf {
+  text-align: center;
+  padding: 20px;
+}
+
+.tour_list .inf h3 {
+  font-size: 22px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.tour_list .inf p {
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  height: 70px;
+  font-weight: normal;
+}
+
+.tour_list .inf a {
+  font-size: 18px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tour_list .inf h3:hover {
+  color: red;
+}
+
+.tour_list .inf a:hover {
+  color: cornflowerblue;
+}
+
+/* footer */
 
 footer {
-    width: 100%;
-    height: 30px;
-    bottom: 0;
-    position: fixed;
-    background-color: #333333;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-/* 관광지 사진 */
-
-.g {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-
-.sc1 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
-}
-
-.sc1-1 {
-    width: 100%;
-    height: 50%;
-    background-color: pink;
-}
-
-.sc1-2 {
-    width: 100%;
-    height: 50%;
-    background-color: goldenrod;
-}
-
-
-.sc2 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
-}
-
-.sc2-1 {
-    width: 100%;
-    height: 50%;
-    background-color: skyblue;
-}
-
-.sc2-2 {
-    width: 100%;
-    height: 50%;
-    background-color: greenyellow;
-}
-
-
-.sc3 {
-    width: 100%;
-    height: 580px;
-    background-color: black;
-    float: left;
-    padding-top: 100px;
-    flex: 1;
-}
-
-.sc3-1 {
-    width: 100%;
-    height: 50%;
-    background-color: brown;
-}
-
-.sc3-2 {
-    width: 100%;
-    height: 50%;
-    background-color: orangered;
-}
-
-footer {
-    width: 100%;
-    height: 30px;
-    bottom: 0;
-    position: fixed;
-    background-color: #333333;
-    color: #FFFFFF;
-    text-align: center;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  position: fixed;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
 }
