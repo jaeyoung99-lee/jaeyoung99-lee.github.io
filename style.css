@@ -154,43 +154,41 @@ header {
 
 /* 핫 뉴스 */
 
-.hot_table caption {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 40px;
-  font-weight: bold;
-  padding-right: 85%;
-}
-
 .hot_table {
-  width: 60%;
+  width: 75%;
   border-top: 1px solid black;
   border-collapse: collapse;
   margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hot_table th {
-  background-color: lightgray;
-}
-
-.hot_table th,
-.hot_table td {
+.hot_table td{
+  height: 150px;
+  font-weight: bold;
   border-bottom: 1px solid black;
   padding: 10px;
-  text-align: center;
   border-left: none;
   border-right: none;
+  font-size: larger;
 }
 
-.hot_table a {
-  text-decoration: none;
-  color: black;
+.hot_table pre{
+  color: gray;
+  font-family: sans-serif;
+  padding-top: 20px;
 }
 
-.hot_table a:hover {
-  color: gold;
+.hot_table a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: xx-large;
+}
+
+.hot_table a:hover{
+  color: #ffb300;
   font-weight: bold;
 }
 
