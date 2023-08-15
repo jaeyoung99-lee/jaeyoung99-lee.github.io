@@ -48,6 +48,10 @@ td {
   width : 1100px;
 }
 
+.calendar td {
+  height : 100px;
+}
+
 .calendar th {
   background-color: #f2f2f2;
 }
