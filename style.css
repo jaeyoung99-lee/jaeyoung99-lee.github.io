@@ -36,7 +36,7 @@ td {
 .calendar {
   font-family: Arial, sans-serif;
   border-collapse: collapse;
-  width: auto;
+  width: 1500px;
 }
 
 .calendar th,
@@ -45,6 +45,7 @@ td {
   padding: 8px;
   text-align: center;
   cursor: pointer;
+  width : 1100px;
 }
 
 .calendar th {
