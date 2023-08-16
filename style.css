@@ -168,7 +168,7 @@ header {
   height: 150px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  padding: 10px;
+  padding: 5px;
   border-left: none;
   border-right: none;
   font-size: larger;
@@ -226,7 +226,8 @@ header {
 
 .tour_list .inf {
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .tour_list .inf h3 {
